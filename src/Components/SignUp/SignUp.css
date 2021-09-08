@@ -1,0 +1,154 @@
+.signup-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    max-width: 350px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.input-container .logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container .logo-container img {
+    width: 175px;
+    margin: 22px auto 12px;
+}
+
+.input-container .logo-container div {
+    width: 18rem;
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-container .input-field-container {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.input-container .input-field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.file-upload-wrapper {
+    position: relative;
+    width: 16rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+}
+.file-upload-wrapper:after {
+    content: attr(data-text);
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    padding: 10px;
+    display: block;
+    width: 14rem;
+    height: 15px;
+    line-height: 15px;
+    color: #8e8e8e;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+.file-upload-wrapper:before {
+    content: "Upload";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    height: 37px;
+    line-height: 37px;
+    background: #0095f6;
+    color: #fff;
+    font-weight: 700;
+    z-index: 1;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 0 3px 3px 0;
+}
+
+.file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.input-container .input-field span {
+    position: absolute;
+    font-size: 16px;
+    top: 10px;
+    left: 42px;
+    color: #8E8E8E;
+    transition: font-size 0.2s, top 0.2s;
+}
+
+.input-container .signup-btn {
+    width: 16rem;
+    border: none;
+    border-radius: 7px;
+    background: #0095F6;
+    color: #fff;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.terms {
+    width: 16rem;
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-nav-container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.login-nav-container .nav-link {
+    font-weight: bolder;
+    color: #0095f6;
+    text-decoration: none;
+}
